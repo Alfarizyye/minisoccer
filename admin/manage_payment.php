@@ -65,6 +65,7 @@ $payments = $stmt->fetchAll();
                 <div class="hidden md:flex items-center space-x-4">
                     <a href="manage_schedule.php" class="text-slate-300 hover:text-white px-3 py-2 rounded-md font-medium text-sm transition">Kelola Jadwal</a>
                     <a href="manage_payment.php" class="bg-slate-800 px-3 py-2 rounded-md font-medium text-sm">Kelola Pembayaran</a>
+                    <a href="manage_users.php" class="text-slate-300 hover:text-white px-3 py-2 rounded-md font-medium text-sm transition">Kelola User</a>
                     <a href="../auth/logout.php" class="text-red-400 hover:text-red-300 px-3 py-2 rounded-md font-medium text-sm transition ml-4 border-l border-slate-700 pl-4">Logout</a>
                 </div>
                 <!-- Mobile menu button -->
@@ -82,6 +83,7 @@ $payments = $stmt->fetchAll();
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="manage_schedule.php" class="text-slate-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Kelola Jadwal</a>
                 <a href="manage_payment.php" class="bg-slate-800 text-white block px-3 py-2 rounded-md text-base font-medium">Kelola Pembayaran</a>
+                <a href="manage_users.php" class="text-slate-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Kelola User</a>
                 <a href="../auth/logout.php" class="text-red-400 hover:text-red-300 block px-3 py-2 rounded-md text-base font-medium">Logout</a>
             </div>
         </div>

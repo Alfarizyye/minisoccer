@@ -36,6 +36,17 @@ Sistem manajemen pemesanan lapangan mini soccer berbasis web yang dirancang untu
 4. **Jalankan Aplikasi**:
    - Pindahkan folder project ke direktori `www` (Laragon) atau `htdocs` (XAMPP).
    - Akses melalui browser: `http://localhost/booking-minisoccer`.
+5. **Reset Password**:
+   - Jika user lupa password, arahkan ke admin untuk meminta password sementara.
+   - Admin login lalu buka menu **Kelola User**, pilih akun, buat password sementara minimal 8 karakter, lalu sampaikan secara pribadi kepada user.
+
+### 🔐 Akun Akses Default
+Untuk keperluan pengujian, gunakan akun berikut:
+
+| Role | Email | Password |
+|:---|:---|:---|
+| **Admin** | `admin@gmail.com` | `admin123` |
+| **User** | *(Silakan daftar melalui menu Registrasi)* | - |
 
 ---
 

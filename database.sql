@@ -24,6 +24,11 @@ INSERT INTO fields (id, name, type, price_per_hour, image_url) VALUES
 (2, 'Lapangan 2 (Vinyl)', 'Vinyl', 120000.00, 'https://images.unsplash.com/photo-1518605368461-1ee7c5108343?q=80&w=600&auto=format&fit=crop')
 ON DUPLICATE KEY UPDATE name=VALUES(name);
 
+-- Insert default admin user (Password: admin123)
+INSERT INTO users (name, email, password, role) VALUES
+('Administrator', 'admin@gmail.com', '$2y$10$eL3ah2clss70LyBb1IsXo.sB0aaq2yGMi9S377e.ZFCU46AHaU4EW', 'admin')
+ON DUPLICATE KEY UPDATE email=VALUES(email);
+
 CREATE TABLE IF NOT EXISTS bookings (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
